@@ -1,0 +1,5 @@
+﻿Install-ChocolateyPackage `
+	'OPOS CCOs' 'msi' "/quiet /norestart" `
+	'http://www.monroecs.com/files/OPOS_CCOs_1.13.003.msi' `
+    -checksum "A6438727E3229E6DB26DCDA8AC9AB544529B2FE448C19C12BDBC69405F5EE5B76A0A77B8BF0CE0B1D3F811F6B5E815F77CA2C5D3C5FAB3062AD9CF5E3E9FBB7C" `
+    -checksumType "sha512"
